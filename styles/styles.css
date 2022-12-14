@@ -1,0 +1,75 @@
+* {
+	max-width: 1920px;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
+/* Navbar Styles */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 28px 24px;
+}
+
+/* Breadcrumb Part Start */
+
+#breadcrumb {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	cursor: pointer;
+}
+
+/* Upper Line */
+#upper-line {
+	width: 29.33px;
+	height: 3px;
+	background: #222222;
+}
+
+/* Lower Line */
+#lower-line {
+	width: 22.33px;
+	height: 3px;
+	margin-top: 9px;
+	background: #222222;
+}
+
+/* Breadcrumb End */
+
+/* Website Title Start */
+#website-title {
+	height: 22px;
+	font-family: 'ITC Avant Garde Gothic Std';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28.75px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #222222;
+	cursor: pointer;
+}
+
+/* Vector Image inside the title */
+#title-vector {
+	color: #222222;
+}
+/* Website Title End */
+
+/* Link of the Navbar Start */
+#touch-link {
+	font-family: 'ITC Avant Garde Gothic Std';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+	text-decoration: none;
+
+	letter-spacing: -0.03em;
+	color: #222222;
+	padding-bottom: 7px;
+	border-bottom: 2px solid #222222;
+}
+/* Link of the Navbar End */
