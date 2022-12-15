@@ -1,8 +1,8 @@
 * {
 	max-width: 1920px;
-	background: white;
 	padding: 0;
 	margin: 0;
+	font-family: 'ITC Avant Garde Gothic Std';
 }
 
 /* Navbar Styles */
@@ -42,7 +42,6 @@ nav {
 /* Website Title Start */
 #website-title {
 	height: 22px;
-	font-family: 'ITC Avant Garde Gothic Std';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 28.75px;
@@ -60,7 +59,6 @@ nav {
 
 /* Link of the Navbar Start */
 #touch-link {
-	font-family: 'ITC Avant Garde Gothic Std';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -73,3 +71,118 @@ nav {
 	border-bottom: 2px solid #222222;
 }
 /* Link of the Navbar End */
+/* Navbar style End */
+
+/* =====><===== */
+/* =====><===== */
+/* =====><===== */
+
+/* Banner Style Start */
+#banner {
+	position: relative;
+	background-image: url('../Assets/banner.png');
+	height: 866px;
+	margin: 76px 29px;
+}
+
+#inner-design {
+	position: absolute;
+	background: linear-gradient(
+		180deg,
+		#05283e -23.09%,
+		rgba(9, 67, 103, 0) 107.85%
+	);
+	width: 100%;
+	height: 100%;
+}
+
+#banner__main-header {
+	position: absolute;
+	width: 842px;
+	height: 250px;
+	top: 107px;
+	left: 111px;
+}
+
+#banner__main-header h1 {
+	background-color: none;
+	font-family: 'ITC Avant Garde Gothic Std';
+	width: 842px;
+	height: 250px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100px;
+	line-height: 141px;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+}
+
+/* Banner nav Counter */
+#banner__nav-counter {
+	position: absolute;
+	width: 294px;
+	height: 295px;
+	left: 114px;
+	top: 454px;
+	background: #ec2232;
+	opacity: 0.5;
+}
+
+#nav-counter__count span {
+	position: absolute;
+	top: 92px;
+	left: 97px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 35px;
+	color: transparent;
+	letter-spacing: -0.05em;
+	-webkit-text-stroke: 1px white;
+}
+
+#nav-counter__line {
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 151px;
+	top: 105px;
+	background: #ffffff;
+}
+
+#banner__nav-items {
+	position: absolute;
+	top: 612px;
+	display: flex;
+}
+
+.nav-item {
+	height: 34px;
+	font-family: 'ITC Avant Garde Gothic Std';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 35px;
+	/* or 100% */
+
+	color: #ffffff;
+}
+
+#nav-item-first,
+#nav-item-third {
+	background: linear-gradient(
+		90deg,
+		#ffffff -6.46%,
+		rgba(255, 255, 255, 0.2) 54.85%,
+		rgba(255, 255, 255, 0) 104.78%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#nav-item-second {
+	margin-left: 37px;
+	margin-right: 51px;
+}
+
+/* Banner Style End */
